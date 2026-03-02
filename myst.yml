@@ -1,0 +1,15 @@
+version: 1
+project:
+  id: 4d21d4de-1d6b-4f18-a576-4bf9fcf3af1f
+  title: Jupyter Book DynSim Template
+  description: Minimal Jupyter Book template with dynsim directive and custom server injection
+  plugins:
+    - _plugins/dynamical-systems.mjs
+  toc:
+    - file: README.md
+    - file: dev/simulation.md
+site:
+  template: book-theme
+  options:
+    folders: true
+    logo_text: DynSim Template

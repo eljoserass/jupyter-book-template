@@ -1,0 +1,33 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter and editor artifacts
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build and packaging outputs
+_build/
+build/
+dist/
+*.egg-info/
+
+# DynSim generated runtime data
+_static/js/0-dynsim-systems.js
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
