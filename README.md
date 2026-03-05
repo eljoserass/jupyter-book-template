@@ -1,7 +1,4 @@
----
-numbering:
-  title: false
----
+
 # Jupyter Book DynSim Template
 
 This is a barebones Jupyter Book project that demonstrates the `dynsim` directive with the same plugin/runtime wiring used in `snn-book`.
@@ -12,10 +9,14 @@ This is a barebones Jupyter Book project that demonstrates the `dynsim` directiv
 - Runtime logic: `_static/js/dynamical_systems.js`
 - Head/script injection for PyScript + static assets: `_static/js/server.js`
 
-## Local run
 
-Run the validation script to verify custom start-time injection:
+## Run yourself
 
 ```bash
-bash dev/validate_injection.sh
+uv sync
+
+source .venv/bin/activate
+
+jupter book start
+
 ```
